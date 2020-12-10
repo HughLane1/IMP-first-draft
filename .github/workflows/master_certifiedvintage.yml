@@ -31,5 +31,5 @@ jobs:
       with:
         app-name: 'certifiedvintage'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_632983b32c494174b571874f5b9cf421 }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_9307ccf829d54e488745ef540fd15c14 }}
         package: ${{env.DOTNET_ROOT}}/myapp 
